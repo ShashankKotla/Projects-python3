@@ -1,4 +1,4 @@
-#!/Users/shashankkotla/Developer/Code/portfolio/.venv/bin/python
+#!/Users/shashankkotla/Developer/Code/django-ex/portfolio/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

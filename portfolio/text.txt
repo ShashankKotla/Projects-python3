@@ -1,0 +1,3 @@
+Username (leave blank to use 'shashankkotla'): user      
+Email address: djangoexperiment@test.com
+password :123456

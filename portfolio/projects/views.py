@@ -3,15 +3,15 @@ from projects.models import Project
 
 # Create your views here.
 def project_index(request):
-    projects = Project.objects.all()
+    project_indexs = Project.objects.all()
     context = {
-        "projects" : projects
+        "project_indexs" : project_indexs
     }
     return render(request, "projects/project_index.html", context)
 
 def project_detail(request, pk):
-    project = Project.objects.get(pk=pk)
+    project_details= Project.objects.get(pk=pk)
     context = {
-        'projects':project
+        'project_details':project_details
     }
     return render(request, "projects/project_details.html", context)
