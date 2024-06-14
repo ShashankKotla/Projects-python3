@@ -1,0 +1,35 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG</title>
+    {% tailwind_css %}
+</head>
+<body class="bg-sky-200 grid place-content-center mt-7 ">
+    
+        <div>
+            <h1 class='font-semibold underline'>LANGUAGE TRANSLATOR</h1>    
+        <br>
+        <form method="post" class="">
+            {% csrf_token %}
+            <h4 class="text-xl">Text:</h4>
+            <input class="rounded  w-96" type="text" name='translate' required>
+            <br>
+            <br>
+            <select class='rounded' required name="language">
+                <option value="Hindi">Hindi</option>
+                <option value="Marathi">Marathi</option>
+                <option value="German">German</option>
+                <option value="Telugu">Telugu</option>
+            </select>
+            <br>
+            <br>
+            <button class='h-7 w-20 rounded bg-white border-solid border-2 border-green-600 hover:text-sky-700' type="submit">Translate</button> 
+        </form>
+        </div>
+
+   
+</body>
+</html>
