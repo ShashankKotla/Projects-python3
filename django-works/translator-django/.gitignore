@@ -12,3 +12,5 @@ media
 # <django-project-name>/staticfiles/
 
 DS_Store/
+
+.venv
