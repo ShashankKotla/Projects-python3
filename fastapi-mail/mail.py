@@ -76,3 +76,4 @@ async def generate_and_send_otp(request: OTPRequest):
         return {'message': 'OTP sent successfully', "otp": otp}
     else:
         raise HTTPException(status_code=500, detail="Failed to send OTP")
+
