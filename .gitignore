@@ -1,1 +1,5 @@
 .DS_Store
+fastapi-mail/
+.env
+__pychache__
+fastapi-mail/.mail.py
