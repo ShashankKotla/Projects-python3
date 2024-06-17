@@ -2,4 +2,5 @@
 fastapi-mail/
 .env
 __pychache__
-fastapi-mail/.mail.py
+
+fastapi-mail/mail.py
