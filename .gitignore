@@ -1,7 +1,7 @@
 .DS_Store
 fastapi-mail/
 .env
-__pychache__
+__pycache__
 
 fastapi-mail/mail.py
 .venv
