@@ -69,3 +69,4 @@ use cmd: pip install cryptography
 When using Django Compressor together with staticfiles,
  please add 'compressor.finders.CompressorFinder' to the STATICFILES_FINDERS setting.
  STATICFILES_FINDERS = ['compressor.finders.CompressorFinder']
+ 
