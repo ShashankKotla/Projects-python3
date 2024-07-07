@@ -36,7 +36,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysql',
         'USER': 'root',
-        'PASSWORD': 'Shashank@2',
+        'PASSWORD': '<enter password>',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -48,7 +48,7 @@ DATABASES = {
 # DATABASE = "mysql",
 # NAME = 'blog'
 # USER = "root"
-# PASSWORD = "Shashank@2"
+# PASSWORD = "<Enter password>"
 # HOST = 'localhost'
 # PORT = '3306'
 # DEFAULT_CHARACTER_SET = "utf8"
