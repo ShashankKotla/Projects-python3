@@ -8,13 +8,9 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from a .env file into the environment
-dotenv_path="/Users/shashankkotla/Developer/Code/Real-python/fastapi-mail/.env"
+dotenv_path = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.env')))
 load_dotenv(dotenv_path=dotenv_path)
 
-# EMAIL_HOST="smtp.gmail.com"
-# EMAIL_PORT=587
-# EMAIL_USER="shankwhacker@gmail.com"
-# EMAIL_PASS='ncadfgryurymrgsy'
 
 # Retrieve values from environment variables from .env file
 EMAIL_HOST = os.getenv("EMAIL_HOST")
